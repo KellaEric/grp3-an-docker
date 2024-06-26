@@ -1,11 +1,10 @@
-{"name":"app",
-"version": "3.19",
-"description": "Docker project on node.js",
-"main": "app.js",
-"dependencies": {},
-
-"scripts": {
-            "start": "node app.js"
-
-}
+{
+  "name": "app",
+  "version": "3.19",
+  "description": "Docker project on node.js",
+  "main": "app.js",
+  "dependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  }
 }
