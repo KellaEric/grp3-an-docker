@@ -1,8 +1,12 @@
 FROM node:alpine3.19
-COPY . /app
+
 WORKDIR /app
+
+COPY package*.json .
+
 RUN npm install
-ENV NAME project
+
+COPY . .
 
 EXPOSE 8000
 
